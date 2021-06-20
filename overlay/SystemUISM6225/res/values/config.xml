@@ -49,4 +49,6 @@
     <!-- Ripple animation played at the time of screen unlock-->
     <bool name="config_enableUnlockRippleAnimation">false</bool>
 
+    <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
+    <integer name="config_screenRecorderMaxFramerate">60</integer>
 </resources>
