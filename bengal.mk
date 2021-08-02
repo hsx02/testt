@@ -297,7 +297,8 @@ PRODUCT_PACKAGES += \
     SettingsSM6225 \
     SystemUISM6225 \
     TelephonySM6225 \
-    WifiSM6225
+    WifiSM6225 \
+    NotchBarKiller
 
 # Parts
 PRODUCT_PACKAGES += \
