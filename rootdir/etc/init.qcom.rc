@@ -749,6 +749,7 @@ on charger
     setprop persist.sys.usb.config mass_storage
     start qcom-post-boot
     chown system system /sys/class/backlight/panel0-backlight/brightness
+    start health-hal-2-1
 
 #add poweroffhandler
 service poweroffhandler /system/vendor/bin/poweroffhandler
