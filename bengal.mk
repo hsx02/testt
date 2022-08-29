@@ -67,6 +67,12 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     checkpoint_gc
 
+# Adaptive Suspend
+PRODUCT_PROPERTY_OVERRIDES += \
+    suspend.short_suspend_threshold_millis=2000 \
+    suspend.short_suspend_backoff_enabled=true \
+    suspend.max_sleep_time_millis=40000
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
