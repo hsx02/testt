@@ -90,11 +90,9 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio-impl \
     audio.bluetooth.default \
-    audio.r_submix.default \
     audio.primary.default \
-    audio.usb.default
-
-PRODUCT_PACKAGES += \
+    audio.r_submix.default \
+    audio.usb.default \
     libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
@@ -139,14 +137,10 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64
-
-PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-service_64 \
     libcamera2ndk_vendor \
     libgui_vendor \
-    libstdc++.vendor
-
-PRODUCT_PACKAGES += \
+    libstdc++.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
@@ -176,9 +170,7 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libsdmcore \
     libsdmutils \
-    libtinyxml
-
-PRODUCT_PACKAGES += \
+    libtinyxml \
     vendor.display.config@1.14 \
     vendor.display.config@1.11.vendor \
     vendor.display.config@2.0 \
@@ -214,9 +206,7 @@ PRODUCT_PACKAGES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.1-service-qti
-
-PRODUCT_PACKAGES += \
+    android.hardware.gnss@2.1-service-qti \
     android.hardware.gnss@2.0.vendor \
     android.hardware.gnss@2.1.vendor \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
@@ -264,14 +254,10 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    android.hardware.media.omx@1.0-service
-
-PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-service \
     libavservices_minijail \
     libavservices_minijail.vendor \
-    libavservices_minijail_vendor
-
-PRODUCT_PACKAGES += \
+    libavservices_minijail_vendor \
     libOmxAacEnc \
     libOmxAmrEnc \
     libOmxCore \
@@ -279,9 +265,7 @@ PRODUCT_PACKAGES += \
     libOmxG711Enc \
     libOmxQcelp13Enc \
     libOmxVdec \
-    libOmxVenc
-
-PRODUCT_PACKAGES += \
+    libOmxVenc \
     libstagefrighthw \
     libstagefright_omx.vendor
 
