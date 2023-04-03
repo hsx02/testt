@@ -30,4 +30,7 @@
 
     <!-- Whether to show a preference item for mobile plan -->
     <bool name="config_show_mobile_plan">false</bool>
+
+    <!-- Ripple animation played at the time of screen unlock-->
+    <bool name="config_enableUnlockRippleAnimation">false</bool>
 </resources>
